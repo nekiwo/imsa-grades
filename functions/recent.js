@@ -29,6 +29,7 @@ const parse = () => {
             yearText = line[ind('AY')]
         }
         year = "20" + yearText.split('-')[(semester == 'S1' ? 0 : 1)];
+        //year = "20" + yearText.split('-')[0];
         if (line[ind('Course')]) {
             course = line[ind('Course')];
             instructorIndex = 0
@@ -45,8 +46,8 @@ const parse = () => {
         return data
     })
 
-    newCourses = newCourses.filter(c => c.year >= 2018 && c.year != 2020) //covid be like
-
+    //newCourses = newCourses.filter(c => c.year >= 2018 && c.year != 2020) //covid be like
+    newCourses = newCourses.filter(c => c.year >= 2018 && !(c.yearText == '19-20' && c.year == 2020));
     return newCourses
 }
 
