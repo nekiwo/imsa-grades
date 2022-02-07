@@ -1281,3 +1281,123 @@
 ,,,WLG620,Mandarin Chinese II,1245,12,8,3,,1,,,,,,,24
 ,,,,,1246,20,3,,,,,,2,,,,25
 ,,,WLG630,Mandarin Chinese III,1247,43,6,2,2,3,,,3,,,,59
+21-22,S1,English,ENG101,Literary Explorations I,1001,2,13,11,4,10,,,,,,,40
+,,,,,1002,3,10,4,3,10,,,1,,,,31
+,,,,,1003,2,8,1,3,4,1,,2,1,,,22
+,,,,,1004,27,7,2,,1,1,,,,1,,39
+,,,,,1005,15,12,7,3,6,,,1,,,,44
+,,,,,1006,15,13,6,2,7,2,,1,1,,,47
+,,,ENG201a,Literary Explorations III: American,1007,3,10,9,2,13,,,1,,,,38
+,,,,,1008,21,13,1,,3,,,,2,1,,41
+,,,ENG201b,Literary Explorations III: British,1009,27,8,,2,2,,,1,1,,,41
+,,,ENG201c,Literary Explorations III: World,1010,7,19,9,6,6,,,,,,,47
+,,,,,1011,19,16,6,1,6,,,,,,,48
+,,,ENG315,Shakespeare,1012,26,12,3,1,2,,1,,,1,,46
+,,,ENG341,Gender Studies,1013,21,16,1,,2,,,,,1,,41
+,,,ENG401b,Authors & Topics: Satire,1014,12,16,4,1,10,,,1,,3,,47
+,,,,,1015,16,15,4,1,9,,,,,1,,46
+,,,ENG502,The Idea of the Individual,1016,4,3,7,,4,2,,,,1,,21
+,,FineArts,FAR100,Concert Band,1017,30,2,,,,,,,,,,32
+,,,FAR110,Wind Ensemble,1018,48,1,,,,,,,,,,49
+,,,FAR120,String Orchestra,1019,19,3,,,,,,,,,,22
+,,,FAR130,Chamber Strings,1020,26,2,,,,,,,,,,28
+,,,FAR200,Concert Choir,1021,10,1,,1,1,,,,,,,13
+,,,FAR210,Chamber Choir,1022,11,,,,,,,,,,,11
+,,,FAR416,Digital Photography,1023,32,2,,1,,,,,,,,35
+,,,FAR421,Scientific Illustration,1024,18,1,,,,,,,,,,19
+,,,FAR452,Graphic Design & Technology,1025,18,,,,1,,,,,,,19
+,,HistorySS,HSS100,American Studies,1026,7,6,3,1,6,1,,,,,,24
+,,,,,1027,38,16,9,5,9,4,3,1,4,,,89
+,,,HSS201a,Ancient World Religion and Philosophy,1028,33,29,2,,3,,,,,1,,68
+,,,,,1029,12,6,3,1,1,,,,1,,,24
+,,,HSS201b,Conflict in World History,1030,7,15,11,7,4,,,,1,1,,46
+,,,HSS201g,Historic Global Commodities and Culture,1031,12,1,3,1,5,,,,1,,,23
+,,,HSS201h,Ancient Epics,1032,12,7,,,1,,,,,,,20
+,,,HSS201i,Revolutions,1033,7,4,2,,3,1,,,,,,17
+,,,,,1034,3,8,1,1,2,,,1,,,,16
+,,,HSS311,Political Theory,1035,18,9,5,5,2,2,1,1,,4,,47
+,,,HSS325,Modern Economics,1036,45,31,,,3,,,2,,,,81
+,,,HSS361,US Government and the Constitution,1037,20,1,,,2,,,1,1,,,25
+,,,HSS393,History of the Environment,1038,27,12,2,,5,,,,2,2,,50
+,,MathCS,CS100,Computer Science Inquiry,1039,11,4,5,2,6,2,1,2,,1,,34
+,,,,,1040,10,4,6,1,3,1,3,1,3,1,,33
+,,,,,1041,30,12,1,,,,,1,,,,44
+,,,CS205,Object Oriented Programming,1042,10,7,2,1,4,1,1,2,,,,28
+,,,,,1043,19,5,1,1,1,3,,,,1,,31
+,,,CS235,Web Technologies,1044,4,7,7,2,3,1,1,1,,,,26
+,,,MAT101,Geometry I/II,1045,3,1,5,1,3,2,,2,,,,17
+,,,MAT110,Mathematical Investigations I/II,1046,,3,3,3,2,2,1,1,3,1,,19
+,,,,,1047,,2,10,2,3,4,4,,3,1,,29
+,,,MAT121,Mathematical Investigations II,1048,8,6,7,3,7,2,1,1,4,2,,41
+,,,,,1049,6,7,3,2,9,,3,1,4,,,35
+,,,,,1050,4,2,3,1,2,1,,1,,,,14
+,,,MAT131,Mathematical Investigations III,1051,3,1,1,1,3,3,4,1,3,,,20
+,,,,,1052,3,3,3,,,2,,2,3,,,16
+,,,,,1053,14,5,6,1,5,3,,3,1,4,,42
+,,,MAT141,Mathematical Investigations IV,1054,18,3,5,1,5,2,,5,1,,,40
+,,,,,1055,21,10,15,1,5,4,1,2,1,2,,62
+,,,,,1056,11,5,3,,1,,2,1,,,,23
+,,,MAT211,AB Calculus I,1057,6,3,7,4,3,,,2,,2,,27
+,,,MAT311,BC Calculus I,1058,5,4,2,2,1,,,2,,,,16
+,,,,,1059,10,3,4,1,3,5,3,1,2,1,,33
+,,,MAT321,BC Calculus II,1060,13,4,4,4,3,3,4,2,5,2,,44
+,,,,,1061,8,2,10,4,5,2,3,2,4,,,40
+,,,MAT331,BC Calculus III,1062,11,5,3,7,5,1,2,2,,,,36
+,,,MAT371,BC Calculus II/III,1063,8,8,5,1,2,,,,,,,24
+,,,MAT411,Statistical Exploration and Description,1064,67,1,2,,,,,,,,,70
+,,,MAT421,Number Theory,1065,4,3,1,,,,,,,,2,10
+,,,MAT441,Multi-Variable Calculus,1066,6,5,3,,2,,,,,,,16
+,,,MAT473,Linear Algebra,1067,13,8,6,2,4,2,,,,,,35
+,,Science,SCI105,Scientific Inquiries - Chemistry,1068,17,5,1,2,4,,,2,,1,,32
+,,,,,1069,16,4,3,3,2,3,2,,3,1,,37
+,,,,,1070,26,3,1,3,3,1,1,5,2,,,45
+,,,SCI115,Scientific Inquiries - Physics,1071,7,6,6,6,5,1,1,2,,,,34
+,,,,,1072,15,5,9,3,5,3,1,2,1,,,44
+,,,,,1073,11,4,2,1,3,1,,,1,1,,24
+,,,SCI135,Methods in Scientific Inquiry,1074,5,7,1,4,,,,,,,,17
+,,,,,1075,38,,,2,,1,,,,,,41
+,,,,,1076,2,3,4,1,6,,,,,,,16
+,,,,,1077,,6,6,2,5,1,1,,1,,,22
+,,,,,1078,10,1,1,,2,,,,,,,14
+,,,SCI201,Adv. Chemistry--Structure and Properties,1079,8,10,4,4,4,2,1,,1,,,34
+,,,,,1080,9,10,8,2,1,4,1,1,,,,36
+,,,SCI215,Organic Chemistry I,1081,5,9,2,4,5,,2,2,,1,,30
+,,,,,1082,10,2,3,,,,,,,,,15
+,,,SCI235,Biochemistry,1083,13,6,7,4,4,,,,,1,,35
+,,,SCI255,Medicinal Chemistry,1084,18,4,6,,3,2,1,,,2,,36
+,,,SCI315,Microcontroller Applications (Science),1085,10,5,1,,,,,,,,,16
+,,,SCI402,Physics: Sound and Light,1086,19,10,4,1,3,1,,1,,1,,40
+,,,SCI411,Physics: Calculus-based Mechanics,1087,10,7,5,2,6,1,,,,1,,32
+,,,,,1088,14,4,3,,7,,,1,,,,29
+,,,SCI445,Modern Physics,1089,3,6,5,1,6,1,1,3,,1,,27
+,,,SCI455,Engineering,1090,25,6,2,,2,1,,2,,,,38
+,,,SCI600,Advanced Biological Systems,1091,46,7,,,1,2,1,,,,,57
+,,,,,1092,34,,,,,,,,,,,34
+,,,,,1093,33,19,,3,1,2,,1,1,1,,61
+,,,,,1094,41,11,4,1,5,,2,,,,,64
+,,,SCI625,Microbes and Disease,1095,3,5,3,2,3,,,1,,2,,19
+,,,SCI636,Pathophysiology,1096,6,1,2,,2,,,,,,,11
+,,,SCI645,Biology of Behavior,1097,9,2,,2,1,2,,,,3,,19
+,,,,,1098,9,3,,1,,,1,,,,,14
+,,Wellness,WEL105,Moving and Learning,1099,12,,27,,,13,,,,,,52
+,,,,,1100,22,,25,,,9,,,,,,56
+,,,WEL231,Outdoor and Indoor Games,1101,51,,6,,,1,,,1,1,,60
+,,,WEL251,Stress Management for Life,1102,10,,6,,,2,,,,,,18
+,,,WEL525,Movement and Relaxation,1103,13,,3,,,3,,,,,,19
+,,WldLang,WLG110,French I,1104,9,4,12,2,11,,1,5,,,,44
+,,,WLG120,French II,1105,43,,2,,,,,1,,,,46
+,,,WLG130,French III,1106,9,11,8,4,6,,,3,,,,41
+,,,WLG140,French IV,1107,9,2,2,,,,,,,,1,14
+,,,WLG220,Spanish II,1108,36,2,1,,,,,,,,,39
+,,,WLG230,Spanish III,1109,35,4,1,,1,,,,,,,41
+,,,WLG240,Spanish IV,1110,38,2,,,2,1,,,,,,43
+,,,WLG250,Spanish V,1111,34,2,,,,,,,,,,36
+,,,WLG310,German I,1112,26,10,4,,2,,,1,,,,43
+,,,WLG320,German II,1113,10,5,6,1,4,,,,,,,26
+,,,WLG330,German III,1114,10,6,1,1,2,,,,,,,20
+,,,WLG520,Russian II,1115,6,6,2,4,3,,1,,,,,22
+,,,WLG530,Russian III,1116,14,1,,,,1,,,,,,16
+,,,WLG610,Mandarin Chinese I,1117,28,12,6,1,12,,,,,1,,60
+,,,WLG620,Mandarin Chinese II,1118,8,2,2,1,5,,,,,,,18
+,,,,,1119,17,14,2,3,4,,,1,,,,41
+,,,WLG630,Mandarin Chinese III,1120,23,13,2,,1,,,1,,,,40
