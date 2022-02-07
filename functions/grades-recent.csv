@@ -969,7 +969,7 @@
 ,,,MAT442,Multi-Variable Calculus,1968,,,,,,,,,,,43,43
 ,,,MAT445,Theory of Analysis,1969,,,,,,,,,,,12,12
 ,,,MAT452,Differential Equations,1970,,,,,,,,,,,46,46
-,,,MAT802,Advanced Topics in Mathematics,1971,0,0,0,0,0,0,0,0,0,0,12,12
+,,,MAT802,Advanced Topics in Mathematics,1971,12,,,,,,,,,,,12
 ,,Science,SCI105,Scientific Inquiries - Chemistry,1972,,,,,,,,,,2,36,38
 ,,,,,1973,,,,,,,,,,,35,35
 ,,,,,1974,,,,,,,,,,1,17,18
@@ -1287,10 +1287,10 @@
 ,,,,,1004,27,7,2,,1,1,,,,1,,39
 ,,,,,1005,15,12,7,3,6,,,1,,,,44
 ,,,,,1006,15,13,6,2,7,2,,1,1,,,47
-,,,ENG201a,Literary Explorations III: American,1007,3,10,9,2,13,,,1,,,,38
+,,,ENG201,Literary Explorations III,1007,3,10,9,2,13,,,1,,,,38
 ,,,,,1008,21,13,1,,3,,,,2,1,,41
-,,,ENG201b,Literary Explorations III: British,1009,27,8,,2,2,,,1,1,,,41
-,,,ENG201c,Literary Explorations III: World,1010,7,19,9,6,6,,,,,,,47
+,,,,,1009,27,8,,2,2,,,1,1,,,41
+,,,,,1010,7,19,9,6,6,,,,,,,47
 ,,,,,1011,19,16,6,1,6,,,,,,,48
 ,,,ENG315,Shakespeare,1012,26,12,3,1,2,,1,,,1,,46
 ,,,ENG341,Gender Studies,1013,21,16,1,,2,,,,,1,,41
