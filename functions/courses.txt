@@ -185,3 +185,5 @@ Advanced Topics in Mathematics
 Ancient Epics
 Authors & Topics: Satire
 Authors & Topics: Experiments in Poetry
+CS Seminar: UNIX/Linux and Cybersecurity
+CS Seminar: Android Apps Development

@@ -1,4 +1,4 @@
-﻿AY,Term,Dept,CourseID,Course,Instructor,A,A-,B,B-,B+,C,C-,C+,D,I,P,Grand Total
+AY,Term,Dept,CourseID,Course,Instructor,A,A-,B,B-,B+,C,C-,C+,D,I,P,Grand Total
 16-17,S1,English,ENG101,Literary Explorations I,1001,6,15,10,2,5,1,,,,,,39
 ,,,,,1002,1,2,13,3,1,,,,,,,20
 ,,,,,1003,7,14,12,5,2,3,,,1,,,44
@@ -1401,3 +1401,210 @@
 ,,,WLG620,Mandarin Chinese II,1118,8,2,2,1,5,,,,,,,18
 ,,,,,1119,17,14,2,3,4,,,1,,,,41
 ,,,WLG630,Mandarin Chinese III,1120,23,13,2,,1,,,1,,,,40
+,S2,CS,CS100,Computer Science Inquiry,2619,3,4,2,3,0,1,2,0,0,0,0,15
+,,,CS100,Computer Science Inquiry,2598,2,2,2,3,1,0,0,0,0,0,0,10
+,,,CS100,Computer Science Inquiry,4334,3,2,2,3,2,0,0,0,0,0,1,13
+,,,CS100,Computer Science Inquiry,3060,2,5,3,1,1,0,1,1,0,0,0,14
+,,,CS100,Computer Science Inquiry,4805,7,4,2,2,4,0,1,0,1,1,0,22
+,,,CS100,Computer Science Inquiry,3671,10,1,2,4,0,0,1,0,1,0,1,20
+,,,CS205,Object Oriented Programming,1144,12,1,3,1,2,0,0,1,0,1,0,21
+,,,CS305,Advanced Programming,4989,2,7,1,4,1,1,0,0,0,0,2,18
+,,,CS305,Advanced Programming,3217,1,6,2,4,0,1,0,0,0,0,0,14
+,,,CS421,CS Seminar: Android Apps Development,3821,2,5,2,2,1,1,0,0,0,0,0,13
+,,,CS422,CS Seminar: UNIX/Linux and Cybersecurity,4743,1,7,4,4,0,0,1,1,0,0,0,18
+,,,CS431,CS Seminar: Machine Learning,2278,14,0,0,0,0,0,0,0,0,0,0,14
+,,English,ENG102,Literary Explorations II,4900,4,9,1,6,2,0,1,0,0,0,0,23
+,,,ENG102,Literary Explorations II,2535,6,4,7,0,0,0,0,0,0,0,0,17
+,,,ENG102,Literary Explorations II,1197,2,2,0,5,0,0,0,0,1,0,1,11
+,,,ENG102,Literary Explorations II,3665,7,4,2,5,3,1,0,0,0,0,0,22
+,,,ENG102,Literary Explorations II,4029,4,8,2,3,1,1,0,0,0,0,1,20
+,,,ENG102,Literary Explorations II,3042,9,3,2,2,2,0,0,0,0,0,0,18
+,,,ENG102,Literary Explorations II,2457,13,6,2,0,0,0,1,0,0,0,0,22
+,,,ENG102,Literary Explorations II,2937,8,9,2,3,0,1,0,0,0,0,0,23
+,,,ENG102,Literary Explorations II,3386,9,7,2,1,2,1,0,0,0,0,0,22
+,,,ENG102,Literary Explorations II,1656,6,9,1,3,1,1,0,0,0,1,0,22
+,,,ENG102,Literary Explorations II,3847,9,5,1,1,0,0,0,0,0,0,1,17
+,,,ENG212,Creative Writing Workshop,3929,10,8,3,1,1,1,0,0,0,0,0,24
+,,,ENG212,Creative Writing Workshop,1411,8,6,5,0,1,2,1,0,0,0,0,23
+,,,ENG212,Creative Writing Workshop,2014,5,9,3,2,0,0,1,0,1,0,0,21
+,,,ENG212,Creative Writing Workshop,2824,9,5,5,2,1,0,0,0,0,0,0,22
+,,,ENG242,Modern Theater,3834,1,4,5,7,0,1,1,0,0,0,0,19
+,,,ENG242,Modern Theater,4538,3,2,3,5,0,0,0,0,0,0,1,14
+,,,ENG301,Modern World Fiction,2515,13,3,3,1,1,0,0,0,0,0,0,21
+,,,ENG301,Modern World Fiction,1538,10,4,2,1,2,0,2,1,1,1,0,24
+,,,ENG325,Digital Literary Studies,3383,15,3,0,1,3,1,0,1,0,0,0,24
+,,,ENG325,Digital Literary Studies,3207,9,8,2,0,1,0,1,0,0,0,0,21
+,,,ENG325,Digital Literary Studies,3741,17,3,2,1,1,0,0,0,0,0,0,24
+,,,ENG325,Digital Literary Studies,4072,7,12,1,1,0,0,1,0,0,0,0,22
+,,,ENG351,Graphic Novels: Image and Text,4920,3,3,4,8,2,1,0,0,0,0,0,21
+,,,ENG351,Graphic Novels: Image and Text,1812,2,8,3,1,1,0,2,0,0,1,1,19
+,,,ENG351,Graphic Novels: Image and Text,3330,4,6,6,2,2,0,0,0,0,0,0,20
+,,,ENG351,Graphic Novels: Image and Text,4895,3,12,5,3,1,0,0,0,0,0,0,24
+,,,ENG365,Speculative Fiction Studies,2443,6,14,1,3,1,0,0,0,0,0,0,25
+,,,ENG365,Speculative Fiction Studies,3104,6,10,5,1,0,0,0,1,0,0,0,23
+,,,ENG512,Victorian Fiction,3294,4,6,2,6,3,0,0,0,0,0,1,22
+,,FineArts,FAR100,Concert Band,2687,31,0,0,0,0,0,0,0,0,0,1,32
+,,,FAR110,Wind Ensemble,4999,49,0,0,0,0,0,0,0,0,0,0,49
+,,,FAR120,String Orchestra,2829,20,1,0,0,0,0,1,0,0,0,1,23
+,,,FAR130,Chamber Strings,2308,23,2,0,0,0,0,0,0,0,1,0,26
+,,,FAR200,Concert Choir,3078,11,0,1,1,0,0,0,0,0,0,0,13
+,,,FAR210,Chamber Choir,4236,9,0,0,0,0,0,0,0,0,0,0,9
+,,,FAR411,Observational Drawing,3835,15,1,0,0,0,0,0,0,0,0,0,16
+,,,FAR416,Digital Photography,4059,15,1,1,0,0,0,0,0,0,0,0,17
+,,,FAR416,Digital Photography,4106,15,2,1,0,0,0,0,0,0,0,0,18
+,,,FAR450,3D Design Foundations,3963,16,2,0,0,1,0,0,0,0,0,0,19
+,,HistorySS,HSS100,American Studies,2430,6,4,6,2,1,0,1,0,1,0,0,21
+,,,HSS100,American Studies,1014,5,5,6,3,1,0,1,0,1,0,0,22
+,,,HSS100,American Studies,3416,6,5,3,4,2,1,1,1,0,0,1,24
+,,,HSS100,American Studies,1711,6,5,4,6,1,0,0,0,1,1,1,25
+,,,HSS100,American Studies,3504,5,5,4,2,1,0,1,1,1,0,0,20
+,,,HSS202,The World in the Twentieth Century,1411,24,0,0,1,0,0,0,0,0,0,0,25
+,,,HSS202,The World in the Twentieth Century,3235,17,4,1,1,1,0,1,0,0,0,0,25
+,,,HSS202,The World in the Twentieth Century,2999,17,3,2,0,0,0,0,0,0,1,0,23
+,,,HSS202,The World in the Twentieth Century,4422,12,5,3,2,1,0,0,0,1,0,1,25
+,,,HSS202,The World in the Twentieth Century,2665,9,4,2,1,2,0,1,1,0,0,0,20
+,,,HSS202,The World in the Twentieth Century,4717,8,5,6,3,0,0,1,0,1,0,0,24
+,,,HSS202,The World in the Twentieth Century,4189,8,4,4,6,1,0,0,1,0,0,0,24
+,,,HSS202,The World in the Twentieth Century,3110,12,3,4,2,0,1,0,0,1,0,0,23
+,,,HSS202,The World in the Twentieth Century,3930,12,7,1,2,0,0,1,0,0,0,0,23
+,,,HSS326,Modern Economics,1271,8,5,3,2,0,0,1,1,0,0,0,20
+,,,HSS326,Modern Economics,3687,15,5,1,3,0,0,0,0,0,0,0,24
+,,,HSS326,Modern Economics,1056,13,3,1,1,0,0,1,0,0,0,0,19
+,,,HSS335,America in the Contemporary World,4199,11,10,1,0,1,1,1,0,0,0,0,25
+,,,HSS335,America in the Contemporary World,1711,18,5,1,1,0,0,0,0,0,0,0,25
+,,,HSS352,History of Technology and Culture,1657,4,11,7,2,1,1,0,0,0,0,0,26
+,,,HSS352,History of Technology and Culture,4934,10,5,2,4,0,2,2,1,0,0,0,26
+,,,HSS394,"Modern Conflict, Insurgency & Terrorism",1691,1,14,3,1,1,1,0,0,2,0,0,23
+,,,HSS394,"Modern Conflict, Insurgency & Terrorism",4010,9,6,0,2,2,0,0,0,0,0,0,19
+,,MathCS,MAT110,Mathematical Investigations I/II,4531,0,3,0,0,1,2,3,1,1,0,1,12
+,,,MAT110,Mathematical Investigations I/II,4815,0,2,3,4,2,1,2,1,3,1,0,19
+,,,MAT110,Mathematical Investigations I/II,4124,0,3,0,2,3,0,3,1,0,0,0,12
+,,,MAT122,Mathematical Investigations II,3363,7,2,1,4,3,1,3,0,0,0,0,21
+,,,MAT132,Mathematical Investigations III,3515,2,1,5,1,0,1,4,0,3,0,0,17
+,,,MAT132,Mathematical Investigations III,2362,8,0,1,4,0,2,4,1,2,0,0,22
+,,,MAT132,Mathematical Investigations III,3302,0,3,1,4,4,2,0,3,2,0,0,19
+,,,MAT132,Mathematical Investigations III,3657,1,1,3,0,0,0,3,0,0,1,2,11
+,,,MAT132,Mathematical Investigations III,3528,2,2,3,2,0,1,2,1,2,0,1,16
+,,,MAT142,Mathematical Investigations IV,4855,4,3,2,7,2,2,1,1,0,0,1,23
+,,,MAT142,Mathematical Investigations IV,1214,4,3,2,0,1,2,4,1,0,0,0,17
+,,,MAT142,Mathematical Investigations IV,2935,7,1,2,0,0,0,2,1,0,0,0,13
+,,,MAT142,Mathematical Investigations IV,2361,2,4,0,0,1,4,3,2,1,0,1,18
+,,,MAT222,AB Calculus II,2060,2,2,2,6,1,2,1,0,0,0,0,16
+,,,MAT222,AB Calculus II,3110,1,2,3,2,2,2,1,0,0,0,0,13
+,,,MAT312,BC Calculus I,1501,2,0,1,4,1,1,1,2,3,1,1,17
+,,,MAT312,BC Calculus I,2096,4,4,1,7,0,0,2,0,2,0,0,20
+,,,MAT312,BC Calculus I,3033,1,0,3,6,2,3,2,2,1,0,0,20
+,,,MAT312,BC Calculus I,3055,1,4,0,3,3,0,5,1,1,0,0,18
+,,,MAT312,BC Calculus I,1217,4,1,3,2,2,0,3,1,1,0,1,18
+,,,MAT322,BC Calculus II,1725,8,0,2,3,1,1,0,0,0,0,0,15
+,,,MAT322,BC Calculus II,1225,7,4,1,3,2,1,0,2,0,0,1,21
+,,,MAT322,BC Calculus II,3395,6,0,2,5,2,1,0,1,0,0,0,17
+,,,MAT332,BC Calculus III,2922,7,3,2,5,2,2,1,0,0,0,1,23
+,,,MAT332,BC Calculus III,3642,3,4,0,6,5,1,2,0,0,0,0,21
+,,,MAT332,BC Calculus III,3775,2,5,1,3,1,0,2,0,0,0,0,14
+,,,MAT332,BC Calculus III,2942,2,7,3,4,0,0,0,1,0,0,1,18
+,,,MAT362,BC Calculus I/II,1549,9,5,3,2,0,1,1,0,0,0,0,21
+,,,MAT412,Statistical Experimentation & Inference,2719,20,3,1,0,0,0,0,0,0,0,0,24
+,,,MAT412,Statistical Experimentation & Inference,4081,21,3,0,0,0,0,0,0,0,0,0,24
+,,,MAT425,Problem Solving,3794,9,4,2,0,0,1,0,0,0,0,0,16
+,,,MAT435,Discrete Mathematics,4364,3,4,0,2,1,1,1,1,2,1,0,16
+,,,MAT442,Multi-Variable Calculus,2667,11,1,2,1,1,2,1,1,0,0,0,20
+,,,MAT442,Multi-Variable Calculus,1686,2,2,1,1,1,1,0,1,0,0,1,10
+,,,MAT442,Multi-Variable Calculus,4382,8,4,2,2,3,0,0,0,0,0,1,20
+,,,MAT445,Theory of Analysis,2115,8,2,1,1,0,0,0,0,0,0,0,12
+,,,MAT452,Differential Equations,2412,16,5,0,1,0,0,0,1,0,0,0,23
+,,,MAT452,Differential Equations,4547,12,5,4,1,0,1,0,0,0,0,0,23
+,,Science,SCI105,Scientific Inquiries - Chemistry,2615,5,2,1,4,2,1,1,0,0,0,0,16
+,,,SCI105,Scientific Inquiries - Chemistry,2561,6,3,1,2,1,0,1,0,0,0,0,14
+,,,SCI105,Scientific Inquiries - Chemistry,2615,4,3,4,1,1,3,0,2,1,0,2,21
+,,,SCI105,Scientific Inquiries - Chemistry,1099,4,2,1,1,2,0,0,0,1,0,1,12
+,,,SCI105,Scientific Inquiries - Chemistry,3391,8,4,2,1,0,1,0,0,0,1,1,18
+,,,SCI105,Scientific Inquiries - Chemistry,3394,8,2,2,4,3,1,0,3,0,0,1,24
+,,,SCI115,Scientific Inquiries - Physics,3810,6,1,0,1,1,1,1,0,0,0,1,12
+,,,SCI115,Scientific Inquiries - Physics,2047,12,2,1,0,1,0,0,0,0,0,1,17
+,,,SCI115,Scientific Inquiries - Physics,1541,11,4,2,3,1,1,1,0,0,0,1,24
+,,,SCI115,Scientific Inquiries - Physics,4553,12,4,0,2,0,1,0,0,0,0,0,19
+,,,SCI115,Scientific Inquiries - Physics,2335,4,3,4,1,2,0,1,0,0,0,0,15
+,,,SCI115,Scientific Inquiries - Physics,4051,9,6,2,6,1,0,0,0,0,0,0,24
+,,,SCI135,Methods in Scientific Inquiry,1696,4,4,1,3,0,0,0,0,0,0,0,12
+,,,SCI135,Methods in Scientific Inquiry,4627,2,2,5,3,3,0,0,1,0,1,0,17
+,,,SCI135,Methods in Scientific Inquiry,3207,6,4,1,7,5,0,0,0,0,1,0,24
+,,,SCI135,Methods in Scientific Inquiry,2451,4,5,4,2,0,1,0,0,0,0,0,16
+,,,SCI135,Methods in Scientific Inquiry,4473,6,5,0,2,1,0,0,0,0,0,1,15
+,,,SCI135,Methods in Scientific Inquiry,1823,14,1,3,0,1,2,1,1,1,1,0,25
+,,,SCI202,Advanced Chemistry--Chemical Reactions,1952,3,7,0,3,0,0,0,0,0,0,0,13
+,,,SCI202,Advanced Chemistry--Chemical Reactions,1731,2,4,2,5,3,2,1,1,0,0,0,20
+,,,SCI202,Advanced Chemistry--Chemical Reactions,1930,3,5,4,3,2,0,0,0,0,0,1,18
+,,,SCI202,Advanced Chemistry--Chemical Reactions,1163,7,6,1,2,1,0,1,0,0,0,0,18
+,,,SCI222,Organic Chemistry II,2776,9,5,1,1,0,0,0,1,0,0,0,17
+,,,SCI222,Organic Chemistry II,4653,8,4,1,1,1,0,0,0,0,0,0,15
+,,,SCI235,Biochemistry,4155,5,2,1,6,2,1,0,0,0,0,0,17
+,,,SCI235,Biochemistry,4225,7,4,3,4,2,0,0,0,0,0,0,20
+,,,SCI245,Environmental Chemistry,2770,8,6,0,4,1,1,0,0,0,0,0,20
+,,,SCI245,Environmental Chemistry,2366,12,4,1,0,1,1,0,0,0,0,0,19
+,,,SCI255,Medicinal Chemistry,2054,16,1,2,1,0,0,0,0,0,0,0,20
+,,,SCI402,Physics: Sound and Light,2355,6,6,2,3,0,0,1,0,0,1,0,19
+,,,SCI412,Physics: Calculus-based Elec & Magnetism,1546,11,2,1,1,0,0,0,0,0,0,2,17
+,,,SCI412,Physics: Calculus-based Elec & Magnetism,4443,11,2,0,1,0,0,1,0,0,0,0,15
+,,,SCI412,Physics: Calculus-based Elec & Magnetism,1052,8,1,2,0,1,0,0,0,0,0,2,14
+,,,SCI425,Planetary Science,1037,4,7,4,3,1,0,0,1,0,0,0,20
+,,,SCI425,Planetary Science,4838,5,3,4,4,0,0,0,0,1,0,1,18
+,,,SCI445,Modern Physics,4912,1,2,4,2,1,0,0,0,0,0,1,11
+,,,SCI455,Engineering,4284,10,5,0,2,0,0,0,0,0,0,2,19
+,,,SCI455,Engineering,2013,9,7,1,1,1,0,0,0,0,0,0,19
+,,,SCI505,Computational Science,3372,3,3,1,5,2,1,0,0,1,0,1,17
+,,,SCI505,Computational Science,2024,4,6,1,3,2,0,1,0,0,0,1,18
+,,,SCI600,Advanced Biological Systems,2676,5,4,2,4,3,1,1,1,1,0,0,22
+,,,SCI600,Advanced Biological Systems,4999,16,0,0,0,0,0,0,0,0,0,0,16
+,,,SCI600,Advanced Biological Systems,4500,4,5,4,3,2,2,4,0,0,0,0,24
+,,,SCI600,Advanced Biological Systems,4019,9,2,1,2,3,2,1,0,1,0,0,21
+,,,SCI600,Advanced Biological Systems,2381,5,5,2,5,3,1,0,1,0,1,0,23
+,,,SCI600,Advanced Biological Systems,4372,4,3,6,4,2,0,0,2,0,1,0,22
+,,,SCI600,Advanced Biological Systems,3101,4,1,3,1,1,2,2,0,0,0,0,14
+,,,SCI600,Advanced Biological Systems,4219,8,4,5,3,1,0,1,0,1,0,0,23
+,,,SCI600,Advanced Biological Systems,4561,19,0,0,0,0,0,0,0,0,0,1,20
+,,,SCI600,Advanced Biological Systems,3831,5,4,2,5,1,0,0,0,0,0,0,17
+,,,SCI600,Advanced Biological Systems,2239,11,0,0,0,0,0,0,0,0,0,0,11
+,,,SCI605,"Evolution, Biodiversity, and Ecology",3090,8,0,0,0,1,0,0,0,0,0,0,9
+,,,SCI605,"Evolution, Biodiversity, and Ecology",4945,17,1,0,1,0,1,0,0,0,0,0,20
+,,,SCI616,Cancer Biology,3919,4,6,2,2,0,1,0,0,0,0,0,15
+,,,SCI616,Cancer Biology,4948,13,0,0,0,0,0,0,0,0,0,0,13
+,,,SCI636,Pathophysiology,1584,6,5,3,0,1,1,0,0,0,0,0,16
+,,Wellness,WEL105,Moving and Learning,2161,11,0,0,14,0,0,2,0,0,0,0,27
+,,,WEL105,Moving and Learning,3155,20,0,0,5,0,0,3,0,0,0,0,28
+,,,WEL105,Moving and Learning,1312,12,0,0,11,0,0,2,0,0,0,0,25
+,,,WEL105,Moving and Learning,4879,14,0,0,12,0,0,1,0,0,0,1,28
+,,,WEL231,Outdoor and Indoor Games,3386,27,0,0,1,0,0,0,0,0,0,0,28
+,,,WEL231,Outdoor and Indoor Games,4546,23,0,0,3,0,0,2,0,0,0,0,28
+,,,WEL251,Stress Management for Life,4822,15,0,0,6,0,0,2,0,0,0,0,23
+,,,WEL525,Movement and Relaxation,2241,15,0,0,1,0,0,3,0,2,0,0,21
+,,WldLang,WLG110,French I,2708,1,7,1,6,2,0,2,1,0,0,0,20
+,,,WLG110,French I,4885,8,3,3,3,2,2,0,0,1,0,0,22
+,,,WLG120,French II,3907,9,2,0,1,0,1,0,0,0,0,0,13
+,,,WLG120,French II,1981,7,2,0,0,0,0,0,0,0,0,1,10
+,,,WLG120,French II,3141,18,0,0,2,0,0,0,0,0,0,0,20
+,,,WLG130,French III,1038,4,3,1,5,0,2,0,0,0,0,2,17
+,,,WLG130,French III,4777,4,5,7,4,1,2,0,1,0,0,0,24
+,,,WLG140,French IV,4989,11,2,0,0,0,0,0,0,1,0,0,14
+,,,WLG220,Spanish II,2330,11,8,1,1,0,0,0,0,0,0,0,21
+,,,WLG220,Spanish II,2200,15,2,0,0,0,0,0,0,0,0,1,18
+,,,WLG230,Spanish III,3682,14,2,2,2,0,0,0,0,0,0,0,20
+,,,WLG230,Spanish III,1887,15,1,4,0,0,0,0,0,0,1,0,21
+,,,WLG240,Spanish IV,4903,18,2,0,0,0,0,0,0,0,0,0,20
+,,,WLG240,Spanish IV,1814,19,0,1,0,1,0,0,0,0,0,0,21
+,,,WLG250,Spanish V,4777,13,0,0,0,0,0,0,0,0,0,0,13
+,,,WLG250,Spanish V,4643,24,0,0,0,0,0,0,0,0,0,0,24
+,,,WLG310,German I,4041,13,5,1,2,1,0,0,0,0,0,0,22
+,,,WLG310,German I,1057,12,3,2,1,1,0,0,0,0,0,0,19
+,,,WLG320,German II,2942,11,4,3,5,2,0,1,0,0,0,0,26
+,,,WLG330,German III,3695,11,3,4,2,0,0,0,0,0,0,0,20
+,,,WLG520,Russian II,1236,12,1,2,4,1,1,0,0,0,0,0,21
+,,,WLG530,Russian III,4728,12,1,0,1,0,0,0,0,0,0,1,15
+,,,WLG610,Mandarin Chinese I,2739,8,6,1,5,2,0,0,0,0,0,0,22
+,,,WLG610,Mandarin Chinese I,2742,5,6,2,1,0,1,0,0,0,0,1,16
+,,,WLG610,Mandarin Chinese I,4513,6,7,3,2,1,0,0,0,0,0,0,19
+,,,WLG620,Mandarin Chinese II,4024,6,3,1,3,1,0,0,0,0,0,1,15
+,,,WLG620,Mandarin Chinese II,4824,11,5,2,2,1,0,0,0,0,0,0,21
+,,,WLG620,Mandarin Chinese II,1498,10,3,2,4,0,1,1,0,0,0,0,21
+,,,WLG630,Mandarin Chinese III,1095,14,2,2,0,0,1,0,0,0,0,0,19
+,,,WLG630,Mandarin Chinese III,2407,12,5,1,3,0,0,0,0,0,0,0,21
