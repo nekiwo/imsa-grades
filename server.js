@@ -65,12 +65,12 @@ app.get('/about', (req, res) => {
 	res.status(200).send(data);
 })
 
-app.get("/*", (req, res) => {
+app.get("/class/*", (req, res) => {
 	res.set('Cache-Control', 'public, max-age=25200');
 
 	var data = fs.readFileSync(path.join(__dirname, "/public/class.html"), 'utf8');
 	data = data.replace('{{headboilerplate}}', headboilerplate);
-	let substr = req.url.substring(1).split('+').join('%20')
+	let substr = req.url.replace("/class/", "").split('+').join('%20')
 	let currentClass = decodeURI(substr);
 
 	read(currentClass).then(classData => {
@@ -542,7 +542,7 @@ const headboilerplate = `
 	</script>
 `
 
-const port = 3000
+const port = 3000 || process.env.PORT
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
