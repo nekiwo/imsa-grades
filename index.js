@@ -1,4 +1,3 @@
-const functions = require('firebase-functions');
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
@@ -9,6 +8,10 @@ const recent = require('./recent.js')
 let header, classes = [];
 let labels = ['4.0', '3.67', '3.33', '3.0', '2.67', '2.33', '2.0', '1.67', '1.0'];
 let labelText = ['A (4.0)', 'A- (3.67)', 'B+ (3.33)', 'B (3.0)', 'B- (2.67)', 'C+ (2.33)', 'C (2.0)', 'C- (1.67)', 'D (1.0)'];
+
+const PORT = 3000 || process.env.PORT
+
+app.use(express.static(path.join(__dirname + '/public')));
 
 app.get('/', (req, res) => {
 	res.set('Cache-Control', 'public, max-age=25200');
@@ -64,12 +67,12 @@ app.get('/about', (req, res) => {
 	res.status(200).send(data);
 })
 
-app.get("/*", (req, res) => {
+app.get("/class/*", (req, res) => {
 	res.set('Cache-Control', 'public, max-age=25200');
 
 	var data = fs.readFileSync(path.join(__dirname, "/public/class.html"), 'utf8');
 	data = data.replace('{{headboilerplate}}', headboilerplate);
-	let substr = req.url.substring(1).split('+').join('%20')
+	let substr = req.url.replace("/class/", "").split('+').join('%20')
 	let currentClass = decodeURI(substr);
 
 	read(currentClass).then(classData => {
@@ -541,4 +544,6 @@ const headboilerplate = `
 	</script>
 `
 
-exports.app = functions.https.onRequest(app);
+app.listen(PORT, () => {
+    console.log(`Listening on port ${PORT}`);
+});
