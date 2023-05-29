@@ -13,7 +13,7 @@
 			</td>
 			<td>
 				<select style="display:inline-block;" name="example" id='search'
-					onchange="location = 'class' + encodeURI(this.value).replace('%0A', '');" placeholder="Select a class..."
+					onchange="location.href = '/class' + encodeURI(this.value).replace('%0A', '');" placeholder="Select a class..."
 					id="search">
 					<option value='' selected></option>
 					{{classes}}
