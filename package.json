@@ -1,0 +1,7 @@
+{
+    "name": "imsa-grades",
+    "scripts": {
+      "build": "go build ./cmd/imsa-grades",
+      "run": "./imsa-grades"
+    }
+  }
