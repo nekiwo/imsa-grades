@@ -183,3 +183,7 @@ dist
 
 # View preferences
 .DS_Store
+
+# IDEs
+.vscode
+.idea
