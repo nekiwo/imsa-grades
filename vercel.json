@@ -6,8 +6,13 @@
     },
     "routes": [
         {
-            "src": "(.*)",
-            "dest": "internal/server/route.go"
+            "src": "/",
+            "dest": "api/error.go"
         }
-    ]
+    ],
+    "functions": {
+        "api/error.go": {
+            "includeFiles": "**/*"
+        }
+    }
 }

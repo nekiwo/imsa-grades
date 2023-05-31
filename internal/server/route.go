@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/nekiwo/imsa-grades/api"
+	handler "github.com/nekiwo/imsa-grades/api"
 )
 
 type Route struct {
@@ -18,11 +18,11 @@ func newRoute(path string, handler http.HandlerFunc) Route {
 }
 
 var routeSwitch = []Route{
-	newRoute("/", api.IndexRoute),
-	newRoute("/static/([^$]+)", api.StaticRoute),
-	newRoute("/index", api.IndexRoute),
-	newRoute("/class/([^/]+)", api.ClassRoute),
-	newRoute("/about", api.AboutRoute),
+	newRoute("/", handler.IndexRoute),
+	newRoute("/static/([^$]+)", handler.StaticRoute),
+	newRoute("/index", handler.IndexRoute),
+	newRoute("/class/([^/]+)", handler.ClassRoute),
+	newRoute("/about", handler.AboutRoute),
 }
 
 func routeServer(w http.ResponseWriter, r *http.Request) {
@@ -36,5 +36,5 @@ func routeServer(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	api.ErrorRoute(w, r, http.StatusNotFound)
+	handler.ErrorRoute(w, r, http.StatusNotFound)
 }

@@ -1,20 +1,31 @@
-package api
+package handler
 
 import (
 	"fmt"
 	"html/template"
 	"net/http"
+	"os"
+	"path/filepath"
 )
 
-type ErrorData struct {
+type errorData struct {
 	Status  int
 	Message string
 }
 
-func ErrorRoute(w http.ResponseWriter, r *http.Request, status int) {
+func Handler(w http.ResponseWriter, r *http.Request) {
+	ex, _ := os.Executable()
+	exPath := filepath.Dir(ex)
+	fmt.Println(exPath)
+	p := "web/pages/error.html" //filepath.Join(exPath, "web/pages/error.html")
+	fmt.Println(p)
+
+	status := 404
 	fmt.Println("error!!")
-	errorTemp, _ := template.New("error.html").ParseFiles("web/pages/error.html")
-	errorPage := ErrorData{status, "Page not found"}
+	errorTemp, err := template.New("error.html").ParseFiles(p)
+	fmt.Println(err)
+	errorPage := errorData{status, "Page not found"}
 	w.WriteHeader(status)
-	errorTemp.Execute(w, errorPage)
+	err = errorTemp.Execute(w, errorPage)
+	fmt.Println(err)
 }
