@@ -1,10 +1,11 @@
 package server
 
 import (
-	"github.com/nekiwo/imsa-grades/internal/server/routes"
 	"net/http"
 	"regexp"
 	"strings"
+
+	"github.com/nekiwo/imsa-grades/api"
 )
 
 type Route struct {
@@ -17,10 +18,11 @@ func newRoute(path string, handler http.HandlerFunc) Route {
 }
 
 var routeSwitch = []Route{
-	newRoute("/", routes.IndexRoute),
-	newRoute("/index", routes.IndexRoute),
-	newRoute("/class/([^/]+)", routes.ClassRoute),
-	newRoute("/about", routes.AboutRoute),
+	newRoute("/", api.IndexRoute),
+	newRoute("/static/([^$]+)", api.StaticRoute),
+	newRoute("/index", api.IndexRoute),
+	newRoute("/class/([^/]+)", api.ClassRoute),
+	newRoute("/about", api.AboutRoute),
 }
 
 func routeServer(w http.ResponseWriter, r *http.Request) {
@@ -34,5 +36,5 @@ func routeServer(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	routes.ErrorRoute(w, r, http.StatusNotFound)
+	api.ErrorRoute(w, r, http.StatusNotFound)
 }

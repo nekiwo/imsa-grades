@@ -1,8 +1,0 @@
-{
-    "name": "imsa-grades",
-    "scripts": {
-      "install": "chmod +x vercel_go_build.sh && ./vercel_go_build.sh",
-      "build": "echo \"build finished\"",
-      "run": "echo \"running program\" && ./imsa-grades"
-    }
-  }
