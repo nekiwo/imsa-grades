@@ -317,7 +317,7 @@ app.get("/class/*", (req, res) => {
 
 function getNavbar(showsearch) {
 	let classNames = fs.readFileSync(path.join(__dirname, '/courses.txt'), 'utf8').split('\n').sort();
-	let navbartext = fs.readFileSync(path.join(__dirname, '/public/navbar.html'), 'utf8');
+	let navbartext = fs.readFileSync(path.join(__dirname, '/components/navbar.html'), 'utf8');
 	if (!showsearch) {
 		navbartext = navbartext.replace('{{searchdisplay}}', 'nodisplay');
 	}
