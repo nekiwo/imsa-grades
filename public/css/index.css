@@ -1,0 +1,69 @@
+body {
+  background-color: #fff !important;
+}
+
+:root {
+  --primary-c: #193767;
+  --secondary-c: #515151
+}
+
+#main {
+  padding-top: 10px;
+}
+
+#advantages {
+  margin-top: 30px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.call, .call:visited, .call:link {
+  font-weight: bold;
+  font-style: italic;
+  color: var(--primary-c);
+}
+
+.extragraphdiv {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 6px 12px;
+  margin-bottom: 20px;
+}
+
+.fit {
+  width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.white {
+  background-color: white;
+}
+
+.nodisplay {
+  display: none !important;
+}
+
+.inline {
+  display: inline;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.canvasContainer {
+  display: block;
+  position: relative;
+  height: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .extragraphdiv {
+    border: none;
+  }
+}
