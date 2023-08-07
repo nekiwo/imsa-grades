@@ -1,8 +1,11 @@
 :root {
-  --bg-dark: #000000;
-  --bg-light: #000000;
+  --dark: #193768;
+  --dim: #00aed9;
+  --light: #f1f1f1;
+}
 
-  --border: #ffffff;
+.navbar {
+  border-bottom: 1px solid #ccc;
 }
 
 .classSearch {
@@ -33,6 +36,8 @@
 
 #aboutContainer > a {
   font-size: 18px;
+  color: #000;
+  text-decoration:none;
 }
 
 #searchBar {
@@ -51,6 +56,11 @@
 
 .selectize-input {
   white-space: nowrap !important;
+  background-image: none !important;
+  background-color: #fff !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  border: 1px solid #ccc !important;
 }
 
 #root {
