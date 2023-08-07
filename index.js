@@ -9,7 +9,9 @@ let header, classes = [];
 let labels = ['4.0', '3.67', '3.33', '3.0', '2.67', '2.33', '2.0', '1.67', '1.0'];
 let labelText = ['A (4.0)', 'A- (3.67)', 'B+ (3.33)', 'B (3.0)', 'B- (2.67)', 'C+ (2.33)', 'C (2.0)', 'C- (1.67)', 'D (1.0)'];
 
-const headboilerplate = fs.readFileSync(path.join(__dirname, "/components/header.html"), {encoding: "utf8", flag: "r"})
+const headboilerplate = getComponent("header");
+const navbar = getNavbar(true);
+const footer = getComponent("footer");
 
 const PORT = 5000 || process.env.PORT
 
@@ -33,8 +35,9 @@ app.get('/', (req, res) => {
 			countsMap[ind][1]++;
 		})
 		data = data.replace('{{classes}}', options);
-		data = data.replace('{{navbar}}', getNavbar(true));
-		data = data.replace('{{headboilerplate}}', headboilerplate)
+		data = data.replace('{{navbar}}', navbar);
+		data = data.replace('{{headboilerplate}}', headboilerplate);
+		data = data.replace('{{footer}}', footer);
 		data = data.replace('{{medianGraph}}', `graph("overallgraph", [${countsMap.map(x => x[1]).join(',')}], ${JSON.stringify(labelText)}, ${JSON.stringify({ x: 'Number of Classes', y: 'Class Grade Point Median' })})`);
 		data = data.replace('{{hardestClass}}', `
 			$('#hardestclasstitle').html("Hardest Class: <a href='/Survey%20of%20Organic%20Chemistry'>Survey of Organic Chemistry</a>")
@@ -64,7 +67,7 @@ app.get('/about', (req, res) => {
 
 	var data = fs.readFileSync(path.join(__dirname, '/public/about.html'), 'utf8');
 	data = data.replace('{{headboilerplate}}', headboilerplate);
-	data = data.replace('{{navbar}}', getNavbar(true));
+	data = data.replace('{{navbar}}', navbar);
 
 	res.status(200).send(data);
 })
@@ -302,7 +305,8 @@ app.get("/class/*", (req, res) => {
 					return JSON.stringify(oldResults)
 				})()
 				}, ${JSON.stringify(labelText)})`],
-			['{{navbar}}', getNavbar(true)],
+			['{{navbar}}', navbar],
+			['{{footer}}', footer],
 			['{{lineGraph}}', `lineGraph('timegraph', ${JSON.stringify(lgDatasets)})`],
 			['{{enrollmentOverTime}}', `lineGraph('enrollmentgraphs', ${JSON.stringify(enrollmentOverTime)})`],
 			['{{countGraph}}', `lineGraph('countgraph', ${JSON.stringify(countDatasets)}, ${showBreakdowns})`],
@@ -324,6 +328,10 @@ function getNavbar(showsearch) {
 	return navbartext.replace('{{classes}}', (!showsearch) ? '' : classNames.map((c) => {
 		return (c.startsWith('#') ? null : `<option description="something" value='/${c.split(' ').join('+')}'>${c}</option>`)
 	}).join(''));
+}
+
+function getComponent(name) {
+	return fs.readFileSync(path.join(__dirname, `/components/${name}.html`), {encoding: "utf8", flag: "r"});
 }
 
 function escapeRegExp(str) {
