@@ -195,6 +195,42 @@
 					}
 				})
 			}
+			function barGraph(id, data, show) {
+				// data = JSON.parse(data);
+				if (show === false) {
+					$('#'+id + 'div').hide()
+					$('#disclaimer').html('Enrollment and Grade Point Breakdown aren\'t available for the class.<br><br>')
+					return;
+				}
+				var ctx = document.getElementById(id).getContext('2d');
+				ctx.height = 100;
+				var myChart = new Chart(ctx, {
+					type: 'bar',
+					data: {
+						labels: data.labels,
+						datasets: data.sets
+					},
+					options: {
+						maintainAspectRatio: false,
+						scales: {
+							xAxes: [{
+								display: true,
+								scaleLabel: {
+									display: true,
+									labelString: data.xlabel
+								}
+							}],
+							yAxes: [{
+								display: true,
+								scaleLabel: {
+									display: true,
+									labelString: data.ylabel
+								},
+							}]
+						}
+					}
+				})
+			}
 	
 			let backgroundColors = ['rgba(0, 229, 102, 0.2)', 'rgba(122, 213, 0, 0.2)', 'rgba(174, 210, 0, 0.2)', 'rgba(206, 188, 0, 0.2)', 'rgba(202, 133, 0, 0.2)', 'rgba(220, 80, 0, 0.2)', 'rgba(194, 29, 0, 0.2)', 'rgba(191, 0, 19, 0.2)', 'rgba(150, 0, 0, 0.2)']
 			let borderColors = ['rgba(0, 299, 102, 1)', 'rgba(122, 213, 0, 1)', 'rgba(174, 210, 0, 1)', 'rgba(206, 188, 0, 1)', 'rgba(202, 133, 0, 1)', 'rgba(220, 80, 0, 1)', 'rgba(194, 29, 0, 1)', 'rgba(191, 0, 19, 1)', 'rgba(150, 0, 0, 1)']

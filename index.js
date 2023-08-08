@@ -125,8 +125,9 @@ app.get("/class/*", (req, res) => {
 			ylabel: 'Number of Students',
 			sets: [{
 				label: 'Count',
-				backgroundColor: '#fcba03',
+				backgroundColor: '#fcba0333',
 				borderColor: '#fcba03',
+				borderWidth: 1,
 				data: results.byYear.map(y => y.stats.n).concat(recentData.years.map(y => y.num)),
 				fill: false
 			}]
@@ -308,7 +309,7 @@ app.get("/class/*", (req, res) => {
 			['{{navbar}}', navbar],
 			['{{footer}}', footer],
 			['{{lineGraph}}', `lineGraph('timegraph', ${JSON.stringify(lgDatasets)})`],
-			['{{enrollmentOverTime}}', `lineGraph('enrollmentgraphs', ${JSON.stringify(enrollmentOverTime)})`],
+			['{{enrollmentOverTime}}', `barGraph('enrollmentgraphs', ${JSON.stringify(enrollmentOverTime)})`],
 			['{{countGraph}}', `lineGraph('countgraph', ${JSON.stringify(countDatasets)}, ${showBreakdowns})`],
 			['{{gpBreakdown}}', `lineGraph('gpBreakdown', ${JSON.stringify(gpBreakdown)}, ${showBreakdowns})`]
 		];
