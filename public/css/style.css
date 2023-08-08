@@ -6,6 +6,7 @@
 
 .navbar {
   border-bottom: 1px solid #ccc;
+  background-color: #343a40;
 }
 
 .classSearch {
@@ -36,7 +37,7 @@
 
 #aboutContainer > a {
   font-size: 18px;
-  color: #000;
+  color: #ffffff;
   text-decoration:none;
 }
 
