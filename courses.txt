@@ -88,6 +88,7 @@ Statistical Exploration and Description
 Statistical Experimentation & Inference
 French I
 Japanese I
+Introduction to Proofs
 Number Theory
 European History
 French III
@@ -100,10 +101,14 @@ Japanese II
 Spanish III
 Concert Band
 Literary Explorations III
+Literary Explorations III: American
+Literary Explorations III: British
+Literary Explorations III: World
 Power and Authority in History
 Robotics Programming
 Engineering
 Ancient World Religion and Philosophy
+Revolutions
 German II
 Seminar in Biology: Stem Cell Biology
 Victorian Fiction
@@ -121,6 +126,7 @@ Geometry I/II
 American Studies
 German I
 Moving and Learning
+Foundations of Healthy Living
 Literary Explorations I
 Scientific Inquiries - Physics
 Methods in Scientific Inquiry
